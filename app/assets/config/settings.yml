@@ -7,5 +7,9 @@ validations:
     max_length: 255
     regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
   password:
-    min_length: 6
+    min_length: 6  
+
+remember_me: 1
+password_expired_time: 2
+per_page: 5
  
