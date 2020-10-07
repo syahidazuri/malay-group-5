@@ -14,6 +14,9 @@ gem "sass-rails", "~> 5.0"
 gem "webpacker", "~> 4.0"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
+gem "faker", "~> 1.6", ">= 1.6.6"
+gem "kaminari", "~> 0.16.3"
+gem "kaminari-bootstrap", "~> 3.0", ">= 3.0.1"
 gem "bootsnap", ">= 1.1.0", require: false
 
 group :development, :test do
